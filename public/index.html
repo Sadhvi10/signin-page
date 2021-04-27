@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <div>
+      <div class="flex justify-around items-center bg-purple-50">
+        <div class="flex">
+          <lord-icon
+            src="https://cdn.lordicon.com/rjzlnunf.json"
+            trigger="hover"
+            colors="primary:#7c3aed,secondary:#f87171"
+            style="width: 80px; height: 70px"
+          >
+          </lord-icon>
+
+          <span
+            class="font-extrabold font-inter bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-purple-400 text-4xl py-4"
+          >
+            Welcome to FitSpiration!
+          </span>
+        </div>
+        <div>
+          <p class="font-inter text-gray-800 font-semibold text-lg">
+            Join us Today!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="min-h-screen flex justify-center items-center bg-gradient-to-tr from-purple-200 to-purple-600"
+    >
+      <div
+        class="bg-purple-50 w-1/3 shadow-2xl p-10 rounded-md overflow-hidden"
+      >
+        <form>
+          <div class="space-y-5 -mb-10">
+            <div>
+              <label
+                for="email"
+                class="block font-inter font-semibold text-purple-500 text-xl mb-2"
+                >E-mail</label
+              >
+              <input
+                placeholder="E-mail"
+                type="email"
+                class="bg-purple-50 border outline-none border-gray-400 w-full py-2 px-2 focus:border focus:border-purple-700 rounded-md font-inter"
+                required
+              />
+            </div>
+            <div>
+              <label
+                for="password"
+                class="block font-inter font-semibold text-purple-500 text-xl mb-2"
+                >Password</label
+              >
+              <input
+                placeholder="Password"
+                type="password"
+                class="bg-purple-50 border border-gray-400 w-full py-2 px-2 mb-2 focus:border outline-none focus:border-purple-700 rounded-md font-inter"
+                required
+              />
+            </div>
+            <button
+              class="bg-purple-200 py-3 text-lg font-inter font-bold text-purple-900 w-full rounded-md hover:bg-purple-300"
+            >
+              Sign In
+            </button>
+            <div class="flex justify-between">
+              <div>
+                <input type="checkbox" class="bg-gray-900" />
+                <label
+                  for="agree"
+                  id="checkbox"
+                  class="items-center text-gray-600 font-inter"
+                  >Remember Me</label
+                >
+              </div>
+              <a href="#" class="text-indigo-700 font-inter font-light"
+                >Forgot Password?</a
+              >
+            </div>
+            <div
+              class="flex justify-center items-center text-gray-600 text-lg font-inter"
+            >
+              <hr class="w-1/2" />
+              Or
+              <hr class="w-1/2" />
+            </div>
+            <div class="flex justify-between">
+              <div class="w-3/5">
+                <a
+                  href="#"
+                  class="flex justify-center bg-purple-600 text-purple-200 rounded-md py-3 px-3 hover:bg-purple-400 font-semibold font-inter"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-google mr-2"
+                    height="30"
+                    width="30"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#ddd6fe"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M17.788 5.108a9 9 0 1 0 3.212 6.892h-8" />
+                  </svg>
+                  <span class="font-inter text-lg">Sign in with Google</span>
+                </a>
+              </div>
+
+              <!-- w-3/4  -->
+              <div class="w-1/3">
+                <a
+                  href="#"
+                  class="flex justify-center bg-purple-600 text-purple-200 rounded-md py-3 px-2 hover:bg-purple-400 font-semibold font-inter"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-brand-facebook mr-1"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="#ddd6fe"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                      d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div
+              class="bg-gray-100 font-inter font-medium text-center -ml-10 -mb-10 -mr-10 mt-8 py-5"
+            >
+              <small class="text-gray-700 font-medium py-2"
+                >Don't have an account?
+                <a href="#" class="text-indigo-700 font-medium ml-1"
+                  >Create account</a
+                >
+              </small>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+  </body>
+</html>
