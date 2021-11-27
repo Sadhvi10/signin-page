@@ -7,6 +7,7 @@ https://sign-in.netlify.app/
 
 
 ## Screenshots
-
+![Sign-in Page](sign-in.png)
 
 ## Setup
+- Go to `http://localhost:3000`
